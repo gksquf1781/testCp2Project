@@ -1,6 +1,7 @@
 #include <process.h>
 #include <iostream>
 #include "KeyEvent.h"
+#include "Frame.h"
 using namespace std;
 /*unsigned int __stdcall mythread(void*)
 {
@@ -26,7 +27,7 @@ unsigned int __stdcall keyEvent(void*) {
 	}
 	return 0;
 }*/
-class Game {
+/*class Game {
 private:
 	int x;
 	int y;
@@ -100,4 +101,19 @@ int main()
 	CloseHandle(handleB);
 
 	return 0;
+}*/
+
+void main() {
+	try {
+		Frame *f1 = new Frame;
+		Frame *f2 = new Frame[10];
+	
+		delete f1;
+		delete[] f2;
+	}
+	catch (string msg)
+	{
+		cout << "Error msg :" << msg << endl;
+	}
+	while (1);
 }
