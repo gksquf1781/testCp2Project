@@ -146,6 +146,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="STL-list.cpp" />
+    <ClCompile Include="STL-map.cpp" />
+    <ClCompile Include="STL-vectior.cpp" />
     <ClCompile Include="thread.cpp" />
   </ItemGroup>
   <ItemGroup>

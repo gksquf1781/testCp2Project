@@ -1,4 +1,4 @@
-#pragma once
+/*#pragma once
 #include <iostream>
 #include <string>
 using namespace std;
@@ -35,4 +35,4 @@ void operator delete(void* addr) {
 void operator delete[](void* addr) {
 	cout << "Free with delete[] operator.." << endl;
 	free(addr);
-}
+}*/

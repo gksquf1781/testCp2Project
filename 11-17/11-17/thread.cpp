@@ -118,7 +118,7 @@ int main()
 	}
 	while (1);
 }*/
-
+/*
 void main() {
 	ExArray<int> arr1(3);
 	ExArray<char> arr2(4);
@@ -150,4 +150,4 @@ void main() {
 	arr4.printData();
 	while (1);
 
-}
+}*/
